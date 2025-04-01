@@ -1,0 +1,144 @@
+/*!
+ * Copyright (c) 2025 aueio-dayo
+ * Licensed under the MIT License
+ */
+
+/*フォント*/
+@font-face {
+    font-family: "keifont";
+    src: url("/keifont.ttf");
+  }
+  .kei {
+    font-family: "keifont",sans-serif;
+    font-weight: 200;
+  }
+/*隙間なくし*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*header、footer*/
+header iframe{
+    width: 400px;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+}
+footer iframe{
+    width: max-content;
+    height: max-content;
+}
+
+footer {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+/*米印*/
+.kome {
+    font-family: "keifont";
+    font-weight: 100;
+}
+/*章のやつ*/
+.syou {
+    font-size: larger;
+    border-right: 3px solid #000;
+    font-family: "keifont",sans-serif;
+    font-weight: 200;
+}
+/*小さい*/
+.mini {
+    font-size:xx-small;
+}
+/*maintext*/
+.maintext {
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+/*タイトル*/
+.title {
+    border-bottom: 3px inset #000;
+    width: max-content;
+    padding-bottom: 5px;
+}
+/*目次*/
+.mokuji {
+    background: rgb(203, 225, 245);
+    border-radius: 20px;
+}
+.mokuji ul {
+    text-align: start;
+    display: flex;
+    list-style: none;
+    font-family: "keifont";
+    font-weight: 100;
+    font-size: 13px;
+    gap: 2px;
+}
+.mokuji ul li {
+    transition: .3s;
+    padding-right: 3px;
+    border-right: 1px solid #000;
+}
+.mokuji ul li:hover {
+    scale: 1.2;
+}
+.mokuji ul li:active {
+    color: rgb(0, 108, 116);
+}
+/*table*/
+table {
+    width: max-content;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  /*あういえお*/
+.auieo {
+    text-align: center;
+}
+/*gotop*/
+#gotop {
+    position: fixed;
+    right: 30;
+    bottom: 0;
+}
+#gotop button {
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    background: #b979793a;
+    color: #000;
+    border: 1px solid #000;
+}
+/*Links*/
+.links {
+    text-align: center;
+    font-family: "keifont";
+    font-size: larger;
+}
+.links a {
+    color: #000;
+    padding-right: 5px;
+    border-right: 3px solid #000;
+}
+.links a:link {
+    color: #000;
+    text-decoration: underline;
+   }
+.links a:visited {
+    color: #000;
+    text-decoration: underline;
+   }
+.links a:active {
+    color: #000;
+    text-decoration: underline;
+   }

@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>windowopen</title>
+    <script src="/main.js"></script>
+</head>
+<body style="margin: 0;padding: 0;">
+    <style>
+        iframe {
+            width: 100vw;
+            height: 100vh;
+        }
+        button {
+            position: absolute;
+            background: rgba(255, 255, 104, 0.2);
+            top: 10px;
+            left: 10px;
+            transition: .3s;
+        }
+        button:active {
+            background: rgba(104, 232, 255, 0.2);
+        }
+    </style>
+    <button onclick="window.close()">閉じる</button>
+    <iframe frameborder="0" id="iframe"></iframe>
+</body>
+</html>
