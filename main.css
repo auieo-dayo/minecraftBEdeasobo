@@ -6,7 +6,7 @@
 /*フォント*/
 @font-face {
     font-family: "keifont";
-    src: url("/keifont.ttf");
+    src: url("/minecraftBEdeasobo/keifont.ttf");
   }
   .kei {
     font-family: "keifont",sans-serif;
