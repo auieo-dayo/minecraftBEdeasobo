@@ -31,7 +31,7 @@ window.onload = function() {
     }
 }
 function open_window(url) {
-    window.open(`/window_open.html?url=${url}`,"", 'width=700,height=600,status=no');
+    window.open(`/minecraftBEdeasobo/window_open.html?url=${url}`,"", 'width=700,height=600,status=no');
 }
 function idscroll(id="top") {
     const target = document.getElementById(id);
